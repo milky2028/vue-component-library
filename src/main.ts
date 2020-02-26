@@ -1,3 +1,3 @@
-const AvButton = () => import("components/AvButton.vue");
+const AvButton = () => import('./components/AvButton.vue');
 
 export { AvButton };

@@ -5,14 +5,31 @@
   "repository": "https://github.com/milky2028/vue-component-library.git",
   "author": "Tyler <tylergross28@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
   "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-typescript": "^3.0.0",
     "@vue/composition-api": "^0.4.0",
+    "core-js": "^3.6.4",
+    "postcss": "^7.0.27",
+    "rimraf": "^3.0.2",
+    "rollup": "^1.31.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-terser": "^5.2.0",
+    "rollup-plugin-vue": "^5.1.6",
     "tslib": "^1.11.0",
     "typescript": "^3.8.2",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
   },
   "peerDependencies": {
     "@vue/composition-api": "^0.4.0",
     "vue": "^2.6.11"
-  }
+  },
+  "dependencies": {}
 }
