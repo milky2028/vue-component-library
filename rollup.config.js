@@ -46,7 +46,8 @@ export default [
     output: {
       dir: 'dist',
       format: 'cjs',
-      entryFileNames: '[name]-[hash].js'
+      entryFileNames: '[name]-[hash].js',
+      sourcemap: true
     },
     plugins
   }
