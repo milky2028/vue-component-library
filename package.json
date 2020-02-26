@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/milky2028/vue-component-library.git",
   "author": "Tyler <tylergross28@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  }
 }
