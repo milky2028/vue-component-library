@@ -4,12 +4,14 @@ import typescript from '@rollup/plugin-typescript';
 import babel from 'rollup-plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
 import vue from 'rollup-plugin-vue';
+import progress from 'rollup-plugin-progress';
 import { terser } from 'rollup-plugin-terser';
 
 rimraf.sync('dist');
 
 const extensions = ['.ts', '.tsx'];
 const plugins = [
+  progress(),
   resolve({ extensions }),
   commonjs(),
   typescript(),
@@ -23,7 +25,7 @@ const plugins = [
         {
           corejs: '3',
           useBuiltIns: 'usage',
-          targets: '> 1%, not dead'
+          targets: '> 1% in US, not dead'
         }
       ]
     ],
