@@ -43,7 +43,7 @@ export default [
   {
     external: ['vue', '@vue/composition-api'],
     input: {
-      main: 'src/main.ts'
+      runtime: 'src/main.ts'
     },
     output: {
       dir: 'dist',
